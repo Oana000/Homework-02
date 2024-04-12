@@ -10,6 +10,11 @@
 .header{
 }
 
+.body {
+    font-family: 'Roboto',
+        sans-serif;
+    color: black;
+}
 .header__navigation ul{
     list-style: none;
 }
@@ -46,7 +51,7 @@
 
 }
 
-.button-blue {
+.main__button-blue {
     font-family: 'Roboto',
         sans-serif;
     font-weight: 700;
@@ -54,6 +59,28 @@
     line-height: 30px;
     background-color: #2196F3;;
     color:var(--white)
+    cursor: pointer
+}
+
+.button-blue:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+.main__button-blue1 {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #2196F3;
+    color: var(--white)
+    cursor: pointer;
+}
+
+.button-blue1:hover {
+    background-color: var(--blue);
+    color: white;
 }
 
 .main__text-1 {
