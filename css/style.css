@@ -51,30 +51,33 @@
 
 }
 
-.main__button-blue {
-    font-family: 'Roboto',
-        sans-serif;
+.main__button {
+    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    background-color: #2196F3;;
-    color:var(--white)
-    cursor: pointer
+    background-color: transparent;
+    color: var(--black);
+    text-transform: uppercase;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.button-blue:hover {
+.button:hover {
     background-color: var(--blue);
-    color: white;
+    color: var(--white);
+   
 }
 
-.main__button-blue1 {
+.main__button1-blue1 {
     font-family: 'Roboto',
         sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 26px;
     background-color: #2196F3;
-    color: var(--white)
+    color: var(--white);
     cursor: pointer;
 }
 
